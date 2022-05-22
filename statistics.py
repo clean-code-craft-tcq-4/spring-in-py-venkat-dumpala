@@ -3,13 +3,10 @@ def calculateStats(numbers):
   
     
 
-    if (list(numbers) or len(numbers)) != 0:
       total = sum(map(float,numbers));
       avg = total/len1;
     
-    else:
-      continue
-  
+
   
  
   
