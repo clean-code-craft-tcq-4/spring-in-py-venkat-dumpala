@@ -1,11 +1,11 @@
 def calculateStats(numbers):
-  len = len(numbers);
+  len1 = len(numbers);
   
     
   while(1):
     if (list(numbers) or len(numbers)) != 0:
       total = sum(map(float,numbers));
-      avg = total/len;
+      avg = total/len1;
     
     else:
       continue
