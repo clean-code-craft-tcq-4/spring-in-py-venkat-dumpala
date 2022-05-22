@@ -2,7 +2,7 @@ def calculateStats(numbers):
   len1 = len(numbers);
   
     
-  while(1):
+
     if (list(numbers) or len(numbers)) != 0:
       total = sum(map(float,numbers));
       avg = total/len1;
