@@ -3,8 +3,8 @@ def calculateStats(numbers):
   
     
 
-      total = sum(map(float,numbers));
-      avg = total/len1;
+   total = sum(map(float,numbers));
+   avg = total/len1;
     
 
   
